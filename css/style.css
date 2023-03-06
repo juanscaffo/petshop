@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    margin-top: -15px;
+}
+.primer-encabezado {
+    height: 20px;
+    background-color: black;
+    }
+
+.ofertas {
+    color: white;
+    margin-left: 200px;
+    }
+
+.segundo-encabezado {
+    background-color: #F0A83E;
+    height: 62px;
+    }
+
+    .logo-encabezado {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 100px
+    }
+    
+    .menu {
+        color: white;
+        display: flex;
+        justify-content: space-around;
+        align-items: end;
+        margin-left: 60%;
+        width: 30%
+        }
+
+ /*aqui comienza el css del main*/
+
+ .portada{
+    width: 100%;
+ }
+
+ .bienvenida {
+    color: black;
+    background-color: white;
+    font-weight: bold;
+    font-size: 30px;
+ }
+
+ .info {
+    font-size: 16px;
+ }
+
+ .boton-portada {
+    background-color:#F0A83E ;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    padding: 15px;
+    
+    
+ }
+
