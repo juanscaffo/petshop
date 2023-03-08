@@ -1,17 +1,33 @@
-body {
+* body {
     margin: 0;
     padding: 0;
-    margin-top: -15px;
-}
+    box-sizing: border-box;
+    
+} 
 .primer-encabezado {
     height: 20px;
     background-color: black;
     }
 
-.ofertas {
+.español {
     color: white;
-    margin-left: 200px;
-    }
+    position: relative;
+    left:70%;
+}
+
+.moneda {
+    color: white;
+    position: relative;
+    left: 71%;
+}
+
+.grandes-ofertas {
+    color: white;
+    position: relative;
+    left: 10%;
+}
+
+/*TERMINA EL PRIMER ENCABEZADO */
 
 .segundo-encabezado {
     background-color: #F0A83E;
@@ -19,9 +35,9 @@ body {
     }
 
     .logo-encabezado {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        position: relative;
+        left: 5px;
+        top: 20px;
         margin-left: 100px
     }
     
@@ -34,21 +50,34 @@ body {
         width: 30%
         }
 
- /*aqui comienza el css del main*/
+/*TERMINA EL SEGUNDO ENCABEZADO */
 
  .portada{
     width: 100%;
+    position: relative;
  }
 
  .bienvenida {
-    color: black;
     background-color: white;
-    font-weight: bold;
-    font-size: 30px;
+    border-radius: 5px;
+    color: #3C2313;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    left: 65%;
+    position:absolute;
+    padding: 10px;
+    
+    top: 40%;
+    
+    
  }
 
- .info {
-    font-size: 16px;
+ .descuento {
+    font-size: 20px;
+    position: absolute;
+    left: 72%;
+    top: 51%;
+    color: #3C2313;
  }
 
  .boton-portada {
@@ -57,8 +86,101 @@ body {
     border-radius: 5px;
     color: white;
     font-size: 16px;
-    padding: 15px;
+    padding: 20px;
+    position: absolute;
+    left: 74%;
+    top: 57%;
+   }
+    /*TERMINO EL HEADER
+
+    COMIENZA EL MAIN*/
+
+    .titulo-main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .destacados {
+        font-size: 45px;
+        color: #3C2313;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+
+.subtitulo {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.tabla {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+
+
+.descripcion-producto-1, .descripcion-producto-2, .descripcion-producto-3 {
+    position: absolute;
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 15px;
+    }
+
+
+.precio-1, .precio-2, .precio-3 {
+    position: absolute;
+    color: #F0A83E;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: bold;
+    }
+
+.descripcion-producto-1 {
+    bottom: 30px;
+    margin-left:50px;
+}
+
+.descripcion-producto-2 {
+    bottom: 30px;
+    margin-left:50px;
+}
+
+.descripcion-producto-3 {
+    bottom: 30px;
+    margin-left:75px;
+}
+
+.precio-1, .precio-2 {
+    bottom: 10px;
+    margin-left: 120px;
+}
+
+
+.precio-3 {
+    bottom: 10px;
+    margin-left: 120px;
+}
+
+
+
+        
+        
+        
+
+
+        
     
     
- }
+
+   
+
+
+    
+    
+    
+ 
 
