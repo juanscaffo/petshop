@@ -1,120 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pet Shop</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
     <header>
-        <section >
-            <article class="primer-encabezado"> 
-                <span class="grandes-ofertas">Grandes ofertas en comederos</span> 
-                <span class="español"> Español</span>
-                <span class="moneda">ARG$</span>
-                </article>
-                </section>
-        <section class="segundo-encabezado">
-            <article class="logo-encabezado">
-                <img  src="img/Logo.png" alt="Logo">
-            </article>
-            <article class="menu">
-            <span>Categorias</span>
-            <span>Pets</span>
-            <span>Nosotros</span>
-            <span>Contactanos</span>
-            </article>
-            
-        </section>
-    
-            <section>
-            <article>
-                <img class="portada" src="img/bowl-and-pet-daities-on-green-background 1.png" alt="Bowl and pet">
-                <p class="bienvenida">¡Es un placer tenerte aquí!</p>
-                <p class="descuento">¡Comedores en descuento!</p>
-                <button class="boton-portada">COMEDEROS</button>
-            </article>
-        </section>
-        </header>
+      <section class="primer-encabezado">
+        <article>
+          <span class="grandes-ofertas">Grandes ofertas en comederos</span>
+        </article>
+        <article class="moneda-idioma">
+          <span>Español</span>
+          <span>UY$</span>
+        </article>
+      </section>
+      <section class="segundo-encabezado">
+        <article class="logo-encabezado">
+          <img src="img/Logo.png" alt="Logo" />
+        </article>
+        <article class="menu">
+          <span><img src="img/pawprint 2.png" alt="huellita"> Categorias</span>
+          <span><img src="img/pawprint 2.png" alt="huellita"> Pets</span>
+          <span><img src="img/pawprint 2.png" alt="huellita"> Nosotros</span>
+          <span>Contactanos</span>
+        </article>
+      </section>
+      <section class="tercer-encabezado">
+        <article class="text-img-portada">
+          <span class="bienvenida">¡Es un placer tenerte aquí!</span>
+          <span class="descuento">¡Comedores en descuento!</span>
+          <button class="boton-portada">COMEDEROS</button>
+    </section>
+        
+        
+    </header>
 
     <main>
-        <section>
-            <article class="titulo-main">
-                <img class="huella" src="img/Huella.png" alt="huella">
-             <h2 class="destacados">Productos Destacados</h2>
-            </article>
-             <article class="subtitulo" >
-                <span>Comederos </span>
-                <span>-</span>
-                 <span> Accesorios</span> 
-                 <span>-</span>
-                 <span> Comida</span>
-            </article>   
-            
+      <section>
+        <article class="titulo-main" >
+          <img class="huella" src="img/Huella.png" alt="huella" />
+          <h2 class="destacados">Productos Destacados</h2>
+          <div class="subtitulo">
+            <span>Comederos </span>
+          <span>-</span>
+          <span> Accesorios</span>
+          <span>-</span>
+          <span> Comida</span>
+          </div>
+          </article>
         </section>
-        <section>
-            <article>
-                <table class="tabla">
-                    <tr>
-                        <th><img  src="img/comidamascota.png" alt="Comida mascota"></th>
-                        <th><img  src="img/Huesito.png" alt="Huesitos"></th>
-                        <th><img  src="img/churrasquito.png" alt="Churrasco"></th>
-                    </tr>
-                    <tr>
-                        <td><p class="descripcion-producto-1">Juguete de Churrasquito</p></td>
-                        <td><p class="descripcion-producto-2">Comedero para perro</p></td>
-                        <td><p class="descripcion-producto-3">Juguete huesito</p></td>
-                    </tr>
-                    <tr>
-                        <td><p class="precio-1">$150</p></td>
-                        <td><p class="precio-2">$250</p></td>
-                        <td><p class="precio-3">$650</p></td>
-                    </tr>
-                </table>
-            </article>
+      <section>
+        <article>
+          <table class="tabla">
+            <tr>
+              <th><img src="img/comidamascota.png" alt="Comida mascota" /></th>
+              <th><img src="img/Huesito.png" alt="Huesitos" /></th>
+              <th><img src="img/churrasquito.png" alt="Churrasco" /></th>
+            </tr>
+            <tr>
+              <td>
+                <p class="descripcion-producto-1">Juguete de Churrasquito</p>
+              </td>
+              <td><p class="descripcion-producto-2">Comedero para perro</p></td>
+              <td><p class="descripcion-producto-3">Juguete huesito</p></td>
+            </tr>
+            <tr>
+              <td><p class="precio-1">$150</p></td>
+              <td><p class="precio-2">$250</p></td>
+              <td><p class="precio-3">$650</p></td>
+            </tr>
+          </table>
+        </article>
+      </section>
+      <section >
+        <article class="contactar">
+          <h2>Contáctanos</h2>
+             </article>
+          <article>
+             <form class="formulario-main" action="formulario">
+            <label for="nombre-y-apellido"></label>
+            <input class="input" type="text" id="nombre-y-apellido" placeholder="Nombre y apellido" />
+            <label  for="correo-electronico"></label>
+            <input class="input" type="text" id="correo-electronico" placeholder="Ingresá tu correo electrónico" />
+            <label  for="telefono"></label>
+            <input class="input" type="text" id="telefono" placeholder="Teléfono" />
+            <div class="botones">
+              <button class="boton1">Resetear</button>
+            <button class="boton2">Enviar</button>
+            </div>
+            </form>
+          </article>
         </section>
-        <section>
-            <article>
-                <h2>Contáctanos</h2>
-                <form action="formulario">
-                    <label for="nombre-y-apellido"> Nombre y apellido</label>
-                    <input type="text" id="nombre-y-apellido">
-                    <label for="correo-electronico">Ingresá tu correo electrónico</label>
-                    <input type="text" id="correo-electronico">
-                    <label for="telefono">Teléfono</label>
-                    <input type="text" id="telefono">
-                    <button>Resetear</button>
-                    <button>Enviar</button>
-                </form>
-            </article>
+    </main>
+    <br />
+    <br />
+    <br />
+    <footer>
+      <section >
+        <article class="login">
+           <img class="sobre" src="img/iconosobre.png" alt="iconosobre" />
+           <span class="subs">Subscríbete para más novedades</span>
+           <form class="formulario-subscripcion" action="formulario-subscripcion">
+            <label for="ingresar-correo"></label>
+            <input class="input-formulario" type="text" id="ingresar-correo" placeholder="Ingresá tu correo electrónico" />
+            <button class="boton-footer">Suscribirme</button>
+          </form>
+        </article>
         </section>
-        </main>
-        <br>
-        <br>
-        <br>
-        <footer>
-        <section>
-            <article>
-                <img src="img/iconosobre.png" alt="iconosobre"> <span>Subscríbete para más novedades</span>
-                <form action="formulario-subscripcion">
-                    <label for="ingresar-correo">Ingresá tu correo electrónico</label>
-                    <input type="text" id="ingresar-correo"> 
-                    <button>Suscribirme</button>
-                 </form>
-                </article>
-        </section>
-        <section>
-            <div><img src="img/Location.png" alt="ubicacion"></div>
-            <div> <img src="img/Phone.png" alt="telefono"></div>
-            <div> <img src="img/Correo.png" alt="correo"> </div>
-        </section>
-        <section>
-            <article>
-                <p>Todos los derechos reservados Front End</p>
-            </article>
-        </section>
+      <section class="info-local">
+        <div><img class="img-info"  src="img/Location.png" alt="ubicacion" /></div>
+        <div><img class="img-info" src="img/Phone.png" alt="telefono" /></div>
+        <div><img class="img-info" src="img/Correo.png" alt="correo" /></div>
+        <div><img class="logo-footer" src="img/Logo-footer.png" alt="logo"></div>
+      </section>
+      <section>
+        <article class="pie-de-pagina">
+          <p>Todos los derechos reservados Front End</p>
+        </article>
+      </section>
     </footer>
-</body>
+  </body>
 </html>

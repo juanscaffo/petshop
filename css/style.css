@@ -5,26 +5,23 @@
     
 } 
 .primer-encabezado {
-    height: 20px;
     background-color: black;
+    display: flex;
     }
-
-.español {
-    color: white;
-    position: relative;
-    left:70%;
-}
-
-.moneda {
-    color: white;
-    position: relative;
-    left: 71%;
-}
 
 .grandes-ofertas {
     color: white;
-    position: relative;
-    left: 10%;
+     margin-left: 150px;
+}
+
+.menu {
+    gap: 1000px;
+
+}
+
+.moneda-idioma {
+    color: white;
+    margin-left: 1000px;
 }
 
 /*TERMINA EL PRIMER ENCABEZADO */
@@ -32,65 +29,90 @@
 .segundo-encabezado {
     background-color: #F0A83E;
     height: 62px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
     }
 
     .logo-encabezado {
-        position: relative;
+        margin-top: -15px;
         left: 5px;
         top: 20px;
-        margin-left: 100px
+        margin-left: 50px;
     }
     
     .menu {
         color: white;
-        display: flex;
-        justify-content: space-around;
-        align-items: end;
+       margin-top: -20px;
+        
         margin-left: 60%;
-        width: 30%
+        
         }
 
 /*TERMINA EL SEGUNDO ENCABEZADO */
 
- .portada{
-    width: 100%;
-    position: relative;
- }
+.tercer-encabezado {
+    height: 550px;
+    margin-top: -16px;
+    background-image: url("../img/bowl-and-pet-daities-on-green-background\ 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    }
+
+.text-img-portada {
+    display: flex;
+    flex-direction: column;
+    margin-left: 990px;
+    margin-top: 280px;
+    
+    
+
+}
 
  .bienvenida {
     background-color: white;
     border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 30px;
+    line-height: 35px;
+    padding: 10px;
+    text-align: center;
+    
+    
+    color: #3C2313;
+}
+
+.descuento {
     color: #3C2313;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 40px;
-    left: 65%;
-    position:absolute;
-    padding: 10px;
-    
-    top: 40%;
-    
-    
- }
-
- .descuento {
-    font-size: 20px;
-    position: absolute;
-    left: 72%;
-    top: 51%;
-    color: #3C2313;
- }
-
- .boton-portada {
-    background-color:#F0A83E ;
-    border: none;
-    border-radius: 5px;
-    color: white;
+    font-style: normal;
+    font-weight: 400px;
     font-size: 16px;
-    padding: 20px;
-    position: absolute;
-    left: 74%;
-    top: 57%;
-   }
+    line-height: 50px;
+    margin-left: 90px;
+    
+}
+
+.boton-portada {
+    background: #F0A83E;
+    border-radius: 5px;
+    border:  none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin-left: 115px;
+    padding: 15px ;
+    width: 140px;
+    
+    
+} 
     /*TERMINO EL HEADER
 
     COMIENZA EL MAIN*/
@@ -100,25 +122,31 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        margin-top: 20px;
     }
 
     .destacados {
         font-size: 45px;
         color: #3C2313;
         font-family: Arial, Helvetica, sans-serif;
+        margin-top: 5px;
+        
     }
 
 
-.subtitulo {
-    display: flex;
-    justify-content: center;
-    
-}
+    .subtitulo {
+        display: flex;
+        gap: 10px;
+        margin-top: -20px;
+        
+        
+    }
 
 .tabla {
     display: flex;
     justify-content: center;
     position: relative;
+    margin-top: 30px;
 }
 
 
@@ -166,21 +194,113 @@
 }
 
 
+.contactar {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #3C2313;
+}
 
-        
-        
-        
+.formulario-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    }
 
-
-        
+.input {
+    background: #3C2313;
+    border-radius: 15px;
+    color: #FFFFFF;
+    padding: 10px 100px 10px 10px;
     
-    
+}
 
-   
+.botones {
+    display: flex;
+    border-radius: 15px;
+    gap: 10px;
+    margin-top: 20px;
+    }
+.boton1 {
+    background: #8A8787;
+    border-radius: 15px;
+    border: none;  
+    color: white;  
+    padding: 10px 20px;
+}
 
+.boton2 {
+    background: #F0A83E;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+}
 
-    
-    
-    
- 
+/*TERMINA EL MAIN*/
 
+.login {
+    background-color: #F0A83E;
+    color: white;
+    display: flex;
+    align-items: center;
+    
+    height: 60px;
+    gap: 10px;
+    
+    }
+
+    .sobre {
+        margin-left: 10px;
+    }
+
+    .subs {
+        font-weight: bold;
+        font-size: 20px;
+line-height: 23px;
+    }
+
+    .formulario-subscripcion {
+        margin-left: 800px;
+    }
+
+    .input-formulario {
+        background: #FFFFFF;
+        border-radius: 15px;
+        border: none;
+        padding: 8px;
+    }
+
+    .boton-footer {
+        background: #3C2313;
+        border-radius: 15px;
+        border: none;
+        color: #FFFFFF;
+        padding: 8px ;
+    }
+
+    .info-local {
+        background-color:#3C2313;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 284px;
+    }
+
+    .img-info {
+        margin-left: 30px;
+    }
+
+    .logo-footer {
+        position: absolute;
+        margin-left: 1200px;
+        margin-top: -120px;
+    }
+
+    .pie-de-pagina {
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: center;
+    }
